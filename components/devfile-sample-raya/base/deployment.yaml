@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-raya
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0037-tenant/tkrw-pr712-0075-0037-app/devfile-sample-raya@sha256:cd180e7d295ba2adcbba3bf1cab180109bb3dd70db2ab9e4007e24f89be86fbc
         name: my-nodejs
         ports:
         - containerPort: 3001
